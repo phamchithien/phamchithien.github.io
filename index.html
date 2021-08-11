@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="rating-star.css">
     <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
     <title>Home</title>
 </head>
@@ -140,126 +141,236 @@
         </div>
         <div class="main-category">
             <div class="main-featured">
-                <div class="container">
-                    <div class="row main-content text-center">
-                        <div class="col-md-12">
-                            <img src="image/feature-courses.png" alt="" style="margin: auto;">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row main-content text-center">
+                            <div class="col-md-12">
+                                <img src="image/feature-courses.png" alt="" style="margin: auto;">
+                            </div>
+                            <div class="col-md-12">
+                                <h1>Featured Courses</h1>
+                            </div>
+                            <div class="col-md-12">
+                                <p>Films can shape the destiny of talented youngsters, Courses</p>
+                            </div>
                         </div>
-                        <div class="col-md-12">
-                            <h1>Featured Courses</h1>
-                        </div>
-                        <div class="col-md-12">
-                            <p>Films can shape the destiny of talented youngsters, Courses</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-4 card-item">
-                                <img class="card-img-top" src="image/image-classonline-cart.png" alt="Card image" style="width:100%">
-                                <img src="image/price-cart.png" alt="" class="price">
-                                <div class="card-body">
-                                    <div class="description">
-                                        <div class="stars">
-                                            <form action="">
-                                              <input class="star star-5" id="star-5" type="radio" name="star"/>
-                                              <label class="star star-5" for="star-5"></label>
-                                              <input class="star star-4" id="star-4" type="radio" name="star"/>
-                                              <label class="star star-4" for="star-4"></label>
-                                              <input class="star star-3" id="star-3" type="radio" name="star"/>
-                                              <label class="star star-3" for="star-3"></label>
-                                              <input class="star star-2" id="star-2" type="radio" name="star"/>
-                                              <label class="star star-2" for="star-2"></label>
-                                              <input class="star star-1" id="star-1" type="radio" name="star"/>
-                                              <label class="star star-1" for="star-1"></label>
-                                            </form>
-                                        </div>
+                        <div class="card-deck">    
+                                <div class="card card-item">
+                                    <img class="card-img-top" src="image/image-classonline-cart.png" alt="Card image" style="width:100%">
+                                    <img src="image/price-cart.png" alt="" class="price">
+                                    <div class="stars">
+                                        <form action="">
+                                            <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                            <label class="star star-5" for="star-5"></label>
+                                            <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                            <label class="star star-4" for="star-4"></label>
+                                            <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                            <label class="star star-3" for="star-3"></label>
+                                            <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                            <label class="star star-2" for="star-2"></label>
+                                            <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                            <label class="star star-1" for="star-1"></label>
+                                        </form>
+                                    </div>
+                                    <div class="card-body">
                                         <h4 class="card-title">Class online courses and learning</h4>
                                         <p class="card-text">Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsectetur elit.</p>
-                                        <div class="row footer-item">
-                                            <div class="col-md-2">
-                                                <img src="image/time-cart.png" alt="" width="700%">
-                                            </div>
-                                            <div class="col-md-2">
-                                                <img src="image/like-cart.png" style="margin-left: 650%;">
-                                            </div>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>
-                            <div class="col-md-4 card-item">
-                                <img class="card-img-top" src="image/image-challenges-cart.png" alt="Card image" style="width:100%">
-                                <img src="image/price-cart.png" alt="" class="price">
-                                <div class="card-body">
-                                    <div class="description">
-                                        <div class="stars">
-                                            <form action="">
-                                              <input class="star star-5" id="star-5" type="radio" name="star"/>
-                                              <label class="star star-5" for="star-5"></label>
-                                              <input class="star star-4" id="star-4" type="radio" name="star"/>
-                                              <label class="star star-4" for="star-4"></label>
-                                              <input class="star star-3" id="star-3" type="radio" name="star"/>
-                                              <label class="star star-3" for="star-3"></label>
-                                              <input class="star star-2" id="star-2" type="radio" name="star"/>
-                                              <label class="star star-2" for="star-2"></label>
-                                              <input class="star star-1" id="star-1" type="radio" name="star"/>
-                                              <label class="star star-1" for="star-1"></label>
-                                            </form>
-                                        </div>
-                                        <h4 class="card-title">Chanllenges in a live, interactive</h4>
-                                        <p class="card-text">Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsectetur elit.</p>
-                                        <div class="row footer-item">
-                                            <div class="col-md-2">
-                                                <img src="image/time-cart.png" alt="" width="700%">
-                                            </div>
-                                            <div class="col-md-2">
-                                                <img src="image/like-cart.png" style="margin-left: 650%;">
-                                            </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="row">
+                                            <p class="lecturecs-card"><img src="image/icon-lecturecs.png" alt=""> 6 Lectures</p>
+                                            <p class="times-card"><img src="image/icon-time.png" alt=""> 6 Hours</p>
+                                            <img src="image/like-cart.png" alt="" class="like-card">
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-4 card-item">
-                                <img class="card-img-top" src="image/image-design-cart.png" alt="Card image" style="width:100%">
-                                <img src="image/price-cart.png" alt="" class="price">
-                                <div class="card-body">
-                                    <div class="description">
-                                        <div class="stars">
-                                            <form action="">
-                                              <input class="star star-5" id="star-5" type="radio" name="star"/>
-                                              <label class="star star-5" for="star-5"></label>
-                                              <input class="star star-4" id="star-4" type="radio" name="star"/>
-                                              <label class="star star-4" for="star-4"></label>
-                                              <input class="star star-3" id="star-3" type="radio" name="star"/>
-                                              <label class="star star-3" for="star-3"></label>
-                                              <input class="star star-2" id="star-2" type="radio" name="star"/>
-                                              <label class="star star-2" for="star-2"></label>
-                                              <input class="star star-1" id="star-1" type="radio" name="star"/>
-                                              <label class="star star-1" for="star-1"></label>
-                                            </form>
+                                <div class="card card-item">
+                                    <img class="card-img-top" src="image/image-challenges-cart.png" alt="Card image" style="width:100%">
+                                    <img src="image/price-cart.png" alt="" class="price">
+                                    <div class="stars">
+                                        <form action="">
+                                            <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                            <label class="star star-5" for="star-5"></label>
+                                            <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                            <label class="star star-4" for="star-4"></label>
+                                            <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                            <label class="star star-3" for="star-3"></label>
+                                            <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                            <label class="star star-2" for="star-2"></label>
+                                            <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                            <label class="star star-1" for="star-1"></label>
+                                        </form>
+                                    </div>
+                                    <div class="card-body">
+                                        <h4 class="card-title">Challenges in a live, interactive</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsectetur elit.</p>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="row">
+                                            <p class="lecturecs-card"><img src="image/icon-lecturecs.png" alt=""> 6 Lectures</p>
+                                            <p class="times-card"><img src="image/icon-time.png" alt=""> 6 Hours</p>
+                                            <img src="image/like-cart.png" alt="" class="like-card">
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="card card-item">
+                                    <img class="card-img-top" src="image/image-design-cart.png" alt="Card image" style="width:100%">
+                                    <img src="image/price-cart.png" alt="" class="price">
+                                    <div class="stars">
+                                        <form action="">
+                                            <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                            <label class="star star-5" for="star-5"></label>
+                                            <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                            <label class="star star-4" for="star-4"></label>
+                                            <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                            <label class="star star-3" for="star-3"></label>
+                                            <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                            <label class="star star-2" for="star-2"></label>
+                                            <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                            <label class="star star-1" for="star-1"></label>
+                                        </form>
+                                    </div>
+                                    <div class="card-body">
                                         <h4 class="card-title">Design Instruments for Communication</h4>
                                         <p class="card-text">Lorem ipsum dolor sit amet, cons adip nas nibh dolor, m lorime uilimes nsect nas nibh dilimes nsectetur elit.</p>
-                                        <div class="row footer-item">
-                                            <div class="col-md-2">
-                                                <img src="image/time-cart.png" alt="" width="700%">
-                                            </div>
-                                            <div class="col-md-2">
-                                                <img src="image/like-cart.png" style="margin-left: 650%;">
-                                            </div>
+                                    </div>
+                                    <div class="card-bottom">
+                                        <div class="row">
+                                            <p class="lecturecs-card"><img src="image/icon-lecturecs.png" alt=""> 6 Lectures</p>
+                                            <p class="times-card"><img src="image/icon-time.png" alt=""> 6 Hours</p>
+                                            <img src="image/like-cart.png" alt="" class="like-card">
                                         </div>
+                                    </div>
+                                </div>
+                        </div>  
+                    </div>
+                    <img src="image/background-cart.png" alt="" width="100%" class="banner-item">
+                </div>
+                <div class="container-fluid main-2transform">
+                    <div class="row group-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 content-group-item">
+                                    <h4 class="title">Transform Your self to Transform Society</h1>
+                                    <p class="description">voluptas sit aspermatur aut odit aut fugit, sed quias consequuntur magni dolores eos qui ratione volust luptatem sequi nesciunt.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <img src="image/item-artistic.png" alt="" class="item-transform">
+                                        <h4 class="name-item">artistic</h4>
+                                        <button type="button" class="btn btn-success btn-trnsform">8 Courses</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <img src="image/item-music.png" alt="" class="item-transform">
+                                        <h4 class="name-item">music</h4>
+                                        <button type="button" class="btn btn-success btn-trnsform">8 Courses</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <img src="image/item-photograph.png" alt="" class="item-transform">
+                                        <h4 class="name-item">photograph</h4>
+                                        <button type="button" class="btn btn-success btn-trnsform">8 Courses</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <img src="image/item-artdesgin.png" alt="" class="item-transform">
+                                        <h4 class="name-item">art desgin</h4>
+                                        <button type="button" class="btn btn-success btn-trnsform">8 Courses</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <img src="image/item-concepts.png" alt="" class="item-transform">
+                                        <h4 class="name-item">concepts</h4>
+                                        <button type="button" class="btn btn-success btn-trnsform">8 Courses</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <img src="image/item-execrise.png" alt="" class="item-transform">
+                                        <h4 class="name-item">execrise</h4>
+                                        <button type="button" class="btn btn-success btn-trnsform">8 Courses</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="row subscribe-mainfeatured">
+                        <div class="container">
+                            <img src="image/icon-send-email.png" alt="" class="icon-send-email">
+                            <h4 class="text-center">Subscribe to our Newsletter</h4>
+                            <p class="text-center">subscribe newsletter and get new updates and notifications</p>
+                            <input type="text" placeholder="   Enter Your Email Address" class="input-subscribe">
+                            <button type="button" class="btn btn-success btn-subscribe">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                    <img src="image/banner-main-2.png" width="100%" alt="" class="banner-main-transform">
                 </div>
-                <div class="container-fluid">
-                    <img src="image/background-cart.png" alt="" width="100%" class="banner-item">
-                </div>
-                <div class="container-fluid"></div>
             </div>
-            <div class="main-transform"></div>
-            <div class="main-client"></div>
+            <div class="main-client">
+                <div class="row">
+                    <div class="col-md-6 client">
+                        <div class="view-text">
+                            <h4 class="title">Client's Testimonials</h4>
+                            <img src="image/icon-nhay.png" alt="" class="icon-nhay">
+                            <p class="description">The others comfortable these days are all happy and free list now the world do not move to the beat of just one drum what be right for you may not be story of a man</p>
+                            <div class="row">
+                                <img src="image/avatar.png" alt="">
+                                <div class="col">
+                                    <h5 class="name">Lophie James</h5>
+                                    <a href="#">Graphic Desginer</a>
+                                </div>
+                                <div class="btn-group">
+                                    <img src="image/avatar-group3.png" alt="" height="80%" width="80%">
+                                    <img src="image/avatar-group2.png" alt="" height="80%" width="80%">
+                                    <img src="image/avatar-group1.png" alt="" height="80%" width="80%">
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-outline-light"><img src="image/icon-muiten-trai.png" alt="">Priev Review</button>
+                            <a href="#" class="next-review">Next Review<img src="image/icon-mui-ten-phai.png" alt=""></a>
+                        </div>
+                        <img src="image/background-client.png" alt="" class="background-client">
+                    </div>
+                    <div class="col-md-6 category">
+                        <div class="btn-group-vertical">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="image/item-worldwide.png" alt="">
+                                </div>
+                                <div class="col-8">
+                                    <h5 class="title">Worldwide Recognize</h5>
+                                    <p class="description">The others comfortable these days are all happy be right for you may not be story of a man</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="image/item-mostly.png" alt="">
+                                </div>
+                                <div class="col-8">
+                                    <h5 class="title">Mostly Pnline Learning(sd)</h5>
+                                    <p class="description">The others comfortable these days are all happy be right for you may not be story of a man</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="image/item-graduate.png" alt="">
+                                </div>
+                                <div class="col-8">
+                                    <h5 class="title">Graduate in as little as 1 Year</h5>
+                                    <p class="description">The others comfortable these days are all happy be right for you may not be story of a man</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="image/background-worldwide.png" alt="" class="background-worldwide">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="main-recent-courses"></div>
         <div class="main-provides"></div>
