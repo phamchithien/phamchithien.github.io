@@ -153,6 +153,7 @@
 }
 .subscriber {
     margin-bottom: 10%;
+    margin-top: 10%;
 }
 .icon-send-email {
     margin-left: 45%;
@@ -160,10 +161,11 @@
 .input-email {
     border-radius: 30px;
     width: 40%;
-    font-size: 150%;
+    height: 50px;
+    font-size: 100%;
     margin-left: 30%;
     border: none;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 1px #e7e9eb;
 }
 .btn-subscribe {
     border-radius: 30px;
@@ -180,7 +182,7 @@
     background-image: url('image/banner-main-2.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -120px; 
+    background-position: -300px; 
 }
 .description-client {
     width: 70%;
@@ -259,9 +261,9 @@
 }
 .row-featured .group-menu {
     margin: auto;
-    width: 50%;
+    width: 60%;
     border-radius: 30px;
-    box-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px #f2f2f2;
     margin-bottom: 5%;
 }
 .row-featured .group-menu .item-menu {
@@ -270,7 +272,7 @@
 }
 .main-recent-courses .category .btn-view {
     border-radius: 30px;
-    background-color: blue;
+    background-color: #1c2f4d;
     font-weight: bold;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -323,17 +325,24 @@
 .group-become .descripton {
     color: whitesmoke;
 }
-.group-become .btn-start-become {
+.group-become .btn-start-become,.btn-start-teaching {
     border-radius: 30px;
-    margin-left: 40%;
     font-weight: bold;
     margin-bottom: 5%;
-    background-color: blue;
+    background-color: #1c2f4d;
     border: none;
+}
+.group-become .btn-start-teaching {
+    margin-left: 35%;
+}
+.group-become .btn-start-become {
+    margin-left: 35%;
 }
 .group-become .btn-start-become:hover {
     background-color: rgb(2, 2, 97);
-
+}
+.group-become .btn-start-teaching:hover {
+    background-color: rgb(2, 2, 97);
 }
 .footer .color{
     color: #d7bd73;
@@ -371,7 +380,7 @@ hr {
     background-color:#fff;
     height:1px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) and (min-width: 768px) {
     .menu-top {
         height: 3rem;
         background-image: url('image/background-header.png');
@@ -545,6 +554,9 @@ hr {
     .group-become .btn-start-become {
         font-size: 50%;
     }
+    .group-become .btn-start-teaching {
+        font-size: 50%;
+    }
     .footer h5 {
         font-size: 80%;
     }
@@ -566,6 +578,212 @@ hr {
     .group-network-footer img {
         width: 10%;
         height: 70%;
+    }
+    .copyright {
+        font-size: 70%;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .menu-top {
+        height: 3rem;
+        background-image: url('image/background-header.png');
+        background-size: cover;
+    }
+    .logo{
+        width: 70%;
+        margin-top: 10%;
+    }
+    .group-icon-network {
+        margin-top: 5%;
+        margin-left: 45%;
+        height: 40%;
+    }
+    .btn-category {
+        font-size: 50%;
+        width: 50%;
+        height: 50%;
+    }
+    .search-header{
+        font-size: 60%;
+        height: 80%;
+    }
+    .input-group-text .icon-search {
+        width: 60%;
+    }
+    .input-group-text {
+        height: 80%;
+    }
+    .group-category {
+        /* height: 60%; */
+        margin-top: 5%;
+    }
+    .btn-login {
+        font-size: 50%;
+        margin-top: 10%;
+        margin-left: -20%;
+    }
+    .menu-bottom .title-header {
+        width: 27%;
+    }
+    .menu-bottom .title-header .title {
+        font-size: 155%;
+    }
+    .menu-bottom .title-header .competent {
+        font-size: 60%;
+
+    }
+    .menu-bottom .title-header .competent .icon-muiten {
+        width: 5%;
+    }
+    .menu-bottom .title-header .btn-start {
+        font-size: 50%;
+    }
+    .main .main-general .procedure-title {
+        font-size: 70%;
+    }
+    .main .main-general .procedure-description {
+        font-size: 50%;
+    }
+    .item-card .card-title {
+        font-size: 110%;
+    }
+    .item-card .card-text {
+        font-size: 70%;
+    }
+    .item-bottom .like {
+        margin-left: 10%;
+        width: 10%;
+    }
+    .main-category {
+        background-position: 0px 250px;
+    }
+    .name-image {
+        font-size: 100%;
+        margin-top: 10%;
+    }
+    .btn-8courses {
+        font-size: 50%;
+        margin-top: -90%;
+    }
+    .title-transform {
+        font-size: 160%;
+    }
+    .description-transform {
+        font-size: 90%;
+    }
+    .image-category-transform {
+        width: 110%;
+    }
+    .icon-send-email {
+        
+    }
+    .input-email {
+        font-size: 100%;
+    }
+    .btn-subscribe {
+        font-size: 70%;
+    }
+    .description-client .title {
+        font-size: 130%;
+    }
+    .description-client .icon-nhay {
+        width: 25%;
+    }
+    .description-client .description {
+        font-size: 90%;
+    }
+    .description-client .avatar {
+        width: 15%;
+        height: 15%;
+    }
+    .description-client .name-avatar {
+        font-size: 75%;
+    }
+    .description-client .desgin-avatar {
+        font-size: 60%;
+    }
+    .description-client .grop-avatar {
+        margin-left: 10%;
+    }
+    .description-client .image-avatar {
+        width: 70%;
+    }
+    .btn-client .btn-prev {
+        font-size: 60%;
+    }
+    .btn-client .btn-next {
+        font-size: 60%;
+    }
+    .group-world .group-con {
+        padding: 2%;
+    }
+    .group-world .image-group-world {
+        width: 120%;
+    }
+    .group-world .title-group-world {
+        font-size: 120%;
+    }
+    .group-world .description-group-world {
+        font-size: 70%;
+    }
+    .row-featured .group-menu {
+        width: 60%;
+    }
+    .row-featured .group-menu .item-menu {
+        font-size: 70%;
+    }
+    .row-featured .group-menu .item-menu .icon-menu{
+        width: 20%;
+    }
+    .main-recent-courses .category .btn-view {
+        font-size: 90%;
+        margin-left: 40%;
+    }
+    .main-provides .tilte {
+        font-size: 180%;    
+    }
+    .main-provides .descripton {
+        font-size: 90%;  
+    }
+    .main-provides .btn-get {
+        margin-left: 40%;  
+    }
+    .group-become .icon-become {
+        width: 25%;
+    }
+    .group-become .title {
+        font-size: 110%;
+    }
+    .group-become .descripton {
+        font-size: 90%;
+    }
+    .group-become .btn-start-become {
+        font-size: 70%;
+    }
+    .group-become .btn-start-teaching {
+        font-size: 70%;
+    }
+    .footer h5 {
+        font-size: 100%;
+    }
+    .footer li a {
+        font-size: 90%;
+    }
+    .footer .cot-cuoi {
+        margin-top: 30%;
+    }
+    .footer .title {
+        font-size: 120%;
+    }
+    .footer p {
+        font-size: 90%;
+    }
+    .group-network-footer {
+        margin-left: 40%;
+    }
+    .group-network-footer img {
+        width: 20%;
+        height: 90%;
     }
     .copyright {
         font-size: 70%;
